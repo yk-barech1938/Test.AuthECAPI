@@ -12,10 +12,10 @@ builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
 //Services from Identity Core 
-// Test
+// Test Updated
 builder.Services
     .AddIdentityApiEndpoints<IdentityUser>()
-    .AddEntityFrameworkStores<AppDbContexts>();
+    .AddEntityFrameworkStores<AppDbContext>();
 
 builder.Services.AddDbContext<AppDbContext>(x=>x
     .UseSqlServer(builder.Configuration.GetConnectionString("DevDB")));
