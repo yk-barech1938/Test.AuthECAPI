@@ -361,3 +361,5 @@ MigrationBackup/
 
 # Fody - auto-generated XML schema
 FodyWeavers.xsd
+/AuthECAPI/Migrations/20241225190317_initial Commit.cs
+/AuthECAPI/appsettings.json
