@@ -69,6 +69,7 @@ app.MapPost("/api/signup", async (
 
 
 app.Run();
+// User Model DTO like
 public class UserRegistrationModel
 {
     public string Email { get; set; }
