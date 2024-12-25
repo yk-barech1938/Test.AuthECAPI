@@ -49,22 +49,22 @@ app.MapPost("/api/signup", async (
     UserManager<AppUser> userManager,
     [FromBody] UserRegistrationModel userRegistrationModel
     ) =>
-    {
-        AppUser user = new AppUser()
-        {
-            UserName = userRegistrationModel.Email,
-            Email = userRegistrationModel.Email,
-            FullName = userRegistrationModel.FullName,
-        };
-        var result =await userManager.CreateAsync(user,userRegistrationModel.Password);
-        if (result.Succeeded)
-            return Results.Ok(result);
-        
-        else 
-        {
-            return Results.BadRequest(result);
-        }
-    }
+{
+AppUser user = new AppUser()
+{
+UserName = userRegistrationModel.Email,
+Email = userRegistrationModel.Email,
+FullName = userRegistrationModel.FullName,
+};
+var result = await userManager.CreateAsync(user, userRegistrationModel.Password);
+if (result.Succeeded)
+return Results.Ok(result);
+
+else
+{
+return Results.BadRequest(result);
+}
+}
 );
 
 
