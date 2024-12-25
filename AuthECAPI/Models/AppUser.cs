@@ -6,7 +6,7 @@ namespace AuthECAPI.Models
     public class AppUser : IdentityUser
     {
         [PersonalData]
-        [Column(TypeName ="nvarchar")]
+        [Column(TypeName = "nvarchar")]
         public string FullName { get; set; }
     }
 }
