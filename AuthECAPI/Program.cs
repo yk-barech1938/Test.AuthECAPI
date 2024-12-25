@@ -67,7 +67,10 @@ return Results.BadRequest(result);
 }
 );
 
+
 // test Master
+
+
 app.Run();
 public class UserRegistrationModel
 {
