@@ -363,3 +363,12 @@ MigrationBackup/
 FodyWeavers.xsd
 /AuthECAPI/Migrations/20241225190317_initial Commit.cs
 /AuthECAPI/appsettings.json
+/AuthECAPI/Migrations/20241225191734_NameAddedUserEntity2.Designer.cs
+/AuthECAPI/Migrations/20241225191734_NameAddedUserEntity2.cs
+/AuthECAPI/Migrations/20241225190317_initial Commit.Designer.cs
+/AuthECAPI/Migrations/20241217081405_FirstMigration.Designer.cs
+/AuthECAPI/Migrations/20241225191644_NameAddedUserEntity.cs
+/AuthECAPI/Migrations/20241217081405_FirstMigration.cs
+/AuthECAPI/Migrations/20241225191644_NameAddedUserEntity.Designer.cs
+/AuthECAPI/Migrations/20241226052659_firstMigrate.Designer.cs
+/AuthECAPI/Migrations/20241226052659_firstMigrate.cs
